@@ -9,5 +9,6 @@ export default function Cabecalho(props) {
       <p className={styles.titulo}>{props.titulo}</p>
       <p className={`${styles.titulo} ${styles.subtitulo}`}>{props.subtitulo}</p>
     </div>
+
   )
 }
