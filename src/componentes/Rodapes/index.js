@@ -10,13 +10,13 @@ const Footer = () => {
       <div style={{ padding: '10px', textAlign: 'center' }}>
         <p>Data corrente: {currentDate}</p>
         <div>
-          <a href="https://www.facebook.com/seu-usuario-facebook" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/cineflixcinemas" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} size="lg" style={{ margin: '5px' }} />
           </a>
-          <a href="https://www.twitter.com/seu-usuario-twitter" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.twitter.com/cineflix" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} size="lg" style={{ margin: '5px' }} />
           </a>
-          <a href="https://www.instagram.com/seu-usuario-instagram" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/cineflixcinemas/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} size="lg" style={{ margin: '5px' }} />
           </a>
         </div>
