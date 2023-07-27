@@ -1,10 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-export default function Rodapes() 
-{
+const Footer = () => {
+  const currentDate = new Date().toLocaleDateString();
+
   return (
-    <div>rodapes
+    <footer style={{ position: 'fixed', bottom: 0, width: '100%', backgroundColor: '#f0f0f0' }}>
+      <div style={{ padding: '10px', textAlign: 'center' }}>
+        <p>Data corrente: {currentDate}</p>
+        <div>
+          <a href="https://www.facebook.com/seu-usuario-facebook" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} size="lg" style={{ margin: '5px' }} />
+          </a>
+          <a href="https://www.twitter.com/seu-usuario-twitter" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} size="lg" style={{ margin: '5px' }} />
+          </a>
+          <a href="https://www.instagram.com/seu-usuario-instagram" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} size="lg" style={{ margin: '5px' }} />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-    </div>
-  )
-}
+export default Footer;

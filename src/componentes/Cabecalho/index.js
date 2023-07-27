@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import styles from './Cabecalho.module.css'
 
 export default function Cabecalho(props) {
@@ -11,4 +12,5 @@ export default function Cabecalho(props) {
     </div>
 
   )
+
 }
